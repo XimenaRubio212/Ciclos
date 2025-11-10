@@ -10,5 +10,5 @@ for (let n = 1; n <= 50; n++) {
     if (n % i === 0) primo = false;
   }
   //aqui se imprime el número primo
-  if (primo) console.log(n);
+  if (primo) alert(n);
 }

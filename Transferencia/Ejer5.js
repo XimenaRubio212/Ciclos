@@ -10,4 +10,4 @@ while (prompt("¿Comprar algo? (si/no)") === "si") {
 //y se calcula el descuento si el total es mayor a 100000
 if (total > 100000) total *= 0.9;
 //se muestra un mensaje con el total a pagar
-console.log("Total a pagar:", total);
+alert("Total a pagar:", total);

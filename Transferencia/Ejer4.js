@@ -8,5 +8,5 @@ for (let i = 1; i <= 5; i++) {
   //se declara la variable promedio y se calcula el promedio de las 3 notas
   let promedio = suma / 3;
   //se muestra un mensaje indicando el promedio y si aprueba o reprueba
-  console.log(`Estudiante ${i} → Promedio: ${promedio} → ${promedio >= 3 ? "Aprueba" : "Reprueba"}`);
+  alert(`Estudiante ${i} → Promedio: ${promedio} → ${promedio >= 3 ? "Aprueba" : "Reprueba"}`);
 }

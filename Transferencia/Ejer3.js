@@ -11,11 +11,11 @@ while (true) {
     //se resta el retiro del saldo
     saldo -= retiro;
     //se muestra un mensjae del nuevo saldo
-    console.log("Retiro exitoso. Saldo:", saldo);
+    alert("Retiro exitoso. Saldo:", saldo);
     //este código se ejecuta si el retiro es mayor que el saldo
   } else {
     //se muestra un mensaje de fondos insuficientes
-    console.log("Fondos insuficientes.");
+    alert("Fondos insuficientes.");
   }
   //aqui se verifica si el saldo es 0 o si el usuario desea otro retiro
   if (saldo === 0 || prompt("¿Otro retiro? (si/no)") !== "si") break;

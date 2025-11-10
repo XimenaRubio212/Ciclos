@@ -10,4 +10,4 @@ for (let i = 1; i <= 3; i++) {
   if (u === "admin" && c === "123") { ok = true; break; }
 }
 //se muestra un mensaje de bienvenida o de acceso denegado
-console.log(ok ? "Bienvenido" : "Acceso denegado");
+alert(ok ? "Bienvenido" : "Acceso denegado");

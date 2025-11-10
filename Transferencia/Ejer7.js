@@ -7,4 +7,4 @@ for (let i = 1; i <= 10; i++) {
   Number(prompt("Número:")) % 2 === 0 ? par++ : impar++;
 }
 //se muestran un mensaje con la cantidad de números pares e impares ingresados
-console.log("Pares:", par, "Impares:", impar);
+alert("Pares:", par, "Impares:", impar);
