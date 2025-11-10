@@ -1,9 +1,7 @@
 //Se inicializa la variable i en 1 (representa al niño 1)
 for (let i = 1; i <= 10; i++) {
-    
     //Se pide la información si el niño ya tiene dulce
     let tieneDulce = prompt(`¿El niño ${i} ya tiene dulce? (1 = Sí, 0 = No):`);
-    
     //Se convierte el valor ingresado a número
     tieneDulce = parseInt(tieneDulce);
 

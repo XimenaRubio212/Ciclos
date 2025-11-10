@@ -9,5 +9,5 @@ for (let i = 1; i <= 3; i++) {
   //se verifica si el usuario y la contraseña son correctos
   if (u === "admin" && c === "123") { ok = true; break; }
 }
-//se muestra el resultado
+//se muestra un mensaje de bienvenida o de acceso denegado
 console.log(ok ? "Bienvenido" : "Acceso denegado");

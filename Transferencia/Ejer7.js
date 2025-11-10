@@ -3,8 +3,8 @@ let par = 0, impar = 0;
 //se utiliza un ciclo for
 //se solicitan 10 números y se verifica si son pares o impares
 for (let i = 1; i <= 10; i++) {
-    //se solicita al usuario un número
+  //se solicita al usuario un número
   Number(prompt("Número:")) % 2 === 0 ? par++ : impar++;
 }
-//se muestran los resultados
+//se muestran un mensaje con la cantidad de números pares e impares ingresados
 console.log("Pares:", par, "Impares:", impar);

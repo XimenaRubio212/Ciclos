@@ -1,4 +1,4 @@
-//se solicita al usuario que adivine un número
+//se declara la variable numero y se solicita al usuario que adivine un número
 let numero = Math.floor(Math.random()*20)+1;
 //se inicializa la variable intento
 let intento;

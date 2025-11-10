@@ -1,5 +1,7 @@
-let multi = 0; //se inicializa la variable multi en 0
-let bandera = false //se inicializa la variable bandera en false
+//se inicializa la variable multi en 0
+let multi = 0;
+//se inicializa la variable bandera en false
+let bandera = false
 //se crea un ciclo for que inicia en 0, se ejecuta mientras
 // i sea menor o igual a 5 y se incrementa en 1
 for (let i = 0; i <= 5; i++) {
